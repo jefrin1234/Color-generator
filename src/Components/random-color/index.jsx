@@ -41,10 +41,10 @@ export default function RandomColor() {
 
     }
 
-    // useEffect( ()=> {
-    //     if(typeOfColor === 'rgb') handleCreateRandomRgbColor
-    //     else handleCreateRandomHexColor();
-    // } ,[typeOfColor]);
+    useEffect( ()=> {
+        if(typeOfColor === 'rgb') handleCreateRandomRgbColor();
+        else handleCreateRandomHexColor();
+    } ,[]);
 
 
 
